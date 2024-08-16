@@ -1,8 +1,13 @@
 # React + Vite
 
-<!-- This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<!-- 컴포넌트 분리 -->
 
-Currently, two official plugins are available:
+<!-- App.jsx : 메인 컴포넌트 상태를 관리하고, 'Form'과 'Table' 컴포넌트를 불러옵니다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh -->
+Form.jsx : 사용자 입력을 받는 폼 컴포넌트로, 입력 필드와 버튼들이 포함되어 있습니다.
+
+Table.jsx : 국가 목록을 테이블 형태로 출력하는 컴포넌트 입니다.
+
+TableRow.jsx : 개별 국가의 정보를 출력하는 테이블 행을 관리합니다. -->
+
+<!-- 빈 input 필드에서 국가 추가 버튼 클릭시 "국가 이름을 입력해 주세요" 기능 추가  -->
